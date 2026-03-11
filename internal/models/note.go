@@ -27,4 +27,5 @@ type NoteKeyword struct {
 	Keyword   string    `json:"keyword"`
 	Score     float64   `json:"score"`
 	CreatedAt time.Time `json:"created_at"`
+	
 }
