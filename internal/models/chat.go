@@ -8,4 +8,5 @@ type ChatHistory struct {
 	Question  string    `json:"question"`
 	Answer    string    `json:"answer"`
 	CreatedAt time.Time `json:"created_at"`
+	
 }
